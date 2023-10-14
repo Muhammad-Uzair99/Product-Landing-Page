@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-[8px] sm:text-sm md-text-base">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-<body>
-  <h1>Product Landing Page</h1>
+<body class="font-[Lato] bg-primary-100 sm:py-4">
+
+  <div id="page-wrapper" class="container mx-auto bg-secondary-100 h-[200vh] relative border-box">
+
+    <header class="bg-primary-300 rounded-t-lg min-h-[4.6875rem] py-0 px-5 flex justify-around items-center sticky top-0 shadow-md shadow-primary-200">
+
+      <div id="logo" class="w-2/5 sm:w-3/5">
+        <img id="header-img" class="w-full h-full max-w-[18.75rem]" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+      </div>
+
+      <nav id="nav-bar" class="font-normal w-3/5 sm:w-[35%]">
+        <ul class="flex flex-row justify-around items-center">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+  </div>
 </body>
 </html>
