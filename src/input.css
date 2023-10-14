@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply flex justify-center items-center h-full w-1/5 bg-secondary-200;
+  }
+
+  .desc {
+    @apply w-4/5 ps-4;
+  }
+
+  .btn {
+    @apply w-40 h-8 bg-primary-400 font-bold mt-4 rounded-lg shadow-md hover:shadow-lg focus:shadow-lg shadow-accent-600 hover:shadow-accent-600 focus:shadow-accent-600;
+  }
+
+  .card {
+    @apply border border-accent-600 w-[200px] sm:w-[300px] aspect-[9/12] rounded-lg shadow-lg shadow-accent-600 flex flex-col justify-between items-center pb-8 overflow-hidden;
+  }
+}
