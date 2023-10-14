@@ -35,7 +35,7 @@
 
         <form action="https://www.freecodecamp.com/email-submit" method="post">
           <fieldset>
-            <legend class="absolute -top-96">Enter your email address:</legend>
+            <legend class="sr-only">Enter your email address:</legend>
             <input class="form-input w-80 p-[0.315rem] rounded-lg" type="email" name="email" placeholder="Enter your email address" required>
           </fieldset>
           <input id="submit" class="btn" type="submit" value="Get Started">
@@ -118,8 +118,13 @@
         </article>
       </section>
     </main>
-    <footer>
-      
+    <footer class="w-full min-h-[4.6875rem] py-0 px-5 text-sm bg-secondary-200 rounded-b-lg flex flex-col justify-center items-end shadow-lg shadow-accent-600">
+      <ul class="flex justify-around sm:justify-between items-center w-[15rem]">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      <p>Copyright 2016, Original Trombones</p>
     </footer>
   </div>
 </body>
